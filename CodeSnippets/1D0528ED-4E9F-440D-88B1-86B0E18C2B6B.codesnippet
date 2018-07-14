@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lazy snippet</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+- (&lt;#Class#&gt;)&lt;#pname#&gt; {
+    
+    if (!_&lt;#pname#&gt;) {
+        _&lt;#pname#&gt; = [[&lt;#Class#&gt; alloc]init];
+    }
+    
+    return _&lt;#pname#&gt;;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1D0528ED-4E9F-440D-88B1-86B0E18C2B6B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>rewrite property getter</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>lazy</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

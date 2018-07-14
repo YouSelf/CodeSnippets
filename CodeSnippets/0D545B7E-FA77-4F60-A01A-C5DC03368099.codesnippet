@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>create_timer snippet</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSTimer *&lt;#timerName#&gt; = [NSTimer timerWithTimeInterval:&lt;#CGFloat_sec#&gt; target:self selector:@selector(&lt;#selector#&gt;) userInfo:nil repeats:&lt;#repeat#&gt;];
+// 添加到RunLoop
+[[NSRunLoop currentRunLoop] addTimer:&lt;#timerName#&gt; forMode:NSRunLoopCommonModes];
+
+// 移除
+[&lt;#timerName#&gt; invalidate];
+&lt;#timerName#&gt; = nil;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0D545B7E-FA77-4F60-A01A-C5DC03368099</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Create NSTimer</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>NSTimer</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
